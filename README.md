@@ -47,4 +47,8 @@
 
 ```
 
-###
+### Disabled extra log from barve trace library
+
+```
+messagingTracing.tracing().setNoop(true);
+```
