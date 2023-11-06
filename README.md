@@ -10,7 +10,7 @@
 
   Usage of brave tracer, solved this problem. This solves the below scenarios too
 
-** Scenarios ** :
+**Scenarios** :
   1. If a message is getting created synchronously as part of an API call, 
       a. the traceId from incoming request should get propagated if present
       b. new traceId should be generated if not present
