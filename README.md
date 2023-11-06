@@ -54,7 +54,10 @@ messagingTracing.tracing().setNoop(true);
 ```
 
 ## Introduction :
-RabbitMQ is an extremely popular open-source Message Broker that is used for building message-based systems. The key elements that constitute RabbitMQ — Producers, Consumers, Exchanges, Bindings and Queues — are shown in img-3.
+RabbitMQ is an extremely popular open-source Message Broker that is used for building message-based systems. The key elements that constitute RabbitMQ — Producers, Consumers, Exchanges, Bindings and Queues.
+
+![image](https://github.com/imvikki/RabbitMQ/assets/41563822/03dc89d9-edbe-4d29-bee9-978f20fa6b1e)
+
 
 
 img-3 (source: cloudamqp.com)
