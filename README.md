@@ -70,14 +70,20 @@ The binary data is transmitted as frames, as shown in img-3. The first byte stor
 ## Major components in AQMP include :
 
 **Queues:** A queue is a message buffer that stores messages until they can be processed by the receiving application. RabbitMQ supports different types of queues, such as durable, non-durable, and mirrored queues, which provide different levels of reliability and availability.
+
 **Exchanges:** An exchange is a message-routing component that receives messages from producers and routes them to the appropriate queue(s) based on message properties and routing rules. RabbitMQ supports different types of exchanges, such as direct, fanout, etc. which help provide different routing patterns.
+
 **Bindings:** A binding is a connection between an exchange and a queue, specifying the routing rules that determine how messages are routed from the exchange to the queue.
 
 ## Why use RabbitMQ?
 **RabbitMQ is a popular message broker for several reasons:**
 
 **Ease of Use:** RabbitMQ is easy to install, configure, and use. It has a simple and intuitive interface that allows developers to quickly set up and start using it. It provides a web-based interface that makes it easy to monitor queues, connections, exchanges, and other components. It also provides support for logging and monitoring tools such as Prometheus.
+
 **Reliable Messaging:** RabbitMQ is a highly reliable message broker that provides features such as message persistence and delivery confirmation. It also has built-in mechanisms for handling message failures and ensuring message delivery. It is designed to be reliable and fault-tolerant.
+
 **High Interoperability:** RabbitMQ is designed to work with a variety of programming languages, platforms, and messaging protocols, making it a flexible and interoperable solution for different environments. RabbitMQ supports multiple messaging protocols like AMQP, MQTT.
+
 **Scalable:** It can handle high volumes of messages and can scale horizontally to accommodate additional message traffic.
+
 **Powerful Routing mechanism:** It provides a powerful routing mechanism to route messages to different queues based on routing keys, message headers, and other attributes. It provides various other features, such as message transformation, routing, and filtering.
